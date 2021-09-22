@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace k1_Class
+namespace OgrenciKayitEkrani
 {
     static class Program
     {
@@ -16,8 +16,8 @@ namespace k1_Class
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
-            Application.Run(new KitapKayitSayfasi());
+            //Application.Run(new OgrencıKayıtEkranı());
+            Application.Run(new OgrencıBılgıSıstemı());
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E0E4510-1770-4ED3-8A3C-0BEAD3974858}</ProjectGuid>
+    <ProjectGuid>{637FF87E-416C-499C-902F-F39A8ACB4742}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>k1_Class</RootNamespace>
-    <AssemblyName>k1_Class</AssemblyName>
+    <RootNamespace>OgrenciKayitEkrani</RootNamespace>
+    <AssemblyName>OgrenciKayitEkrani</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,37 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Araba.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="OgrenciSorgulamaEkrani.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="OgrenciSorgulamaEkrani.Designer.cs">
+      <DependentUpon>OgrenciSorgulamaEkrani.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="OgrencıKayıtEkranı.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Kitap.cs" />
-    <Compile Include="KitapKayitSayfasi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="KitapKayitSayfasi.Designer.cs">
-      <DependentUpon>KitapKayitSayfasi.cs</DependentUpon>
+    <Compile Include="OgrencıKayıtEkranı.Designer.cs">
+      <DependentUpon>OgrencıKayıtEkranı.cs</DependentUpon>
     </Compile>
     <Compile Include="Ogrenci.cs" />
+    <Compile Include="OgrencıBılgıSıstemı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrencıBılgıSıstemı.Designer.cs">
+      <DependentUpon>OgrencıBılgıSıstemı.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="OgrenciSorgulamaEkrani.resx">
+      <DependentUpon>OgrenciSorgulamaEkrani.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="OgrencıBılgıSıstemı.resx">
+      <DependentUpon>OgrencıBılgıSıstemı.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KitapKayitSayfasi.resx">
-      <DependentUpon>KitapKayitSayfasi.cs</DependentUpon>
+    <EmbeddedResource Include="OgrencıKayıtEkranı.resx">
+      <DependentUpon>OgrencıKayıtEkranı.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
